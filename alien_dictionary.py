@@ -1,4 +1,4 @@
-```python
+'''
 https://leetcode.com/problems/verifying-an-alien-dictionary
 
 Creating a main list and appending each word as list of numbers by using the alphabet dict
@@ -11,6 +11,7 @@ https://stackoverflow.com/questions/13052857/comparing-two-lists-using-the-great
 first the first two items are compared, and if they differ this determines the 
 outcome of the comparison; if they are equal, the next two items are compared, 
 and so on, until either sequence is exhausted.
+'''
 
 class Solution(object):
     def isAlienSorted(self, words, order)
